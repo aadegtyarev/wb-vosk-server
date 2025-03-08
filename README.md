@@ -44,7 +44,7 @@ pip install -r ./server/requirements.txt
 python ./server/wb-vosk-server.py
 ```
 
-# Настройка среды для компиляции скетчей Arduino в VSCode
+## Настройка среды для компиляции скетчей Arduino в VSCode
 
 ### 1. Установи `arduino-cli`
 ```sh
