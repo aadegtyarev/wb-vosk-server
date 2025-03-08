@@ -19,7 +19,7 @@ LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO").upper()
 logging.basicConfig(level=LOG_LEVEL, format='[%(levelname)s] %(message)s')
 logger = logging.getLogger(__name__)
 
-MQTT_HOST = os.environ.get("MQTT_HOST", "192.168.2.110")
+MQTT_HOST = os.environ.get("MQTT_HOST", "192.168.2.116")
 MQTT_PORT = int(os.environ.get("MQTT_PORT", "1883"))
 MQTT_LOGIN = os.environ.get("MQTT_LOGIN", "")
 MQTT_PASSWORD = os.environ.get("MQTT_PASSWORD", "")

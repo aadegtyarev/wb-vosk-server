@@ -1,1 +1,3 @@
 esp/M5AtomEcho/build
+.env
+.vscode

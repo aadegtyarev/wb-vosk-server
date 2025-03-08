@@ -1,0 +1,4 @@
+websockets
+paho-mqtt
+vosk
+dotenv
